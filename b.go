@@ -1,7 +1,9 @@
 package b
 
-import "fmt"
+import (
+	d "github.com/codysoyland/gomod-d"
+)
 
 func Hello() {
-	fmt.Println("Hello from B")
+	d.Greet("B")
 }
